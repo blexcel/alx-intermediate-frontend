@@ -18,10 +18,10 @@
         <h1 class="text-3xl">Grid and Flexbox Layout</h1>
     </header>
 
-    <main>
-        <section>
-            <div>Flexbox Item 1</div>
-            <div>Flexbox Item 2</div>
+    <main class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen">
+        <section class="lg:col-span-2 flex">
+            <div class="p-4 bg-gradient-to-r from-red-200 to-red-400 w-1/2">Flexbox Item 1</div>
+            <div class="p-4 bg-gradient-to-r from-red-200 to-red-400 w-1/2">Flexbox Item 2</div>
         </section>
         <aside class="bg-green-200 p-4">Sidebar</aside>
     </main>
