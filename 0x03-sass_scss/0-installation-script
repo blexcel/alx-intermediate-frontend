@@ -1,0 +1,11 @@
+Steps to Install Sass using npm
+1. Check Node.js installation using node -v and npm -v
+If you don’t have Node.js installed, download it from https://nodejs.org
+
+2. Install Sass globally using npm install -g sass
+
+
+3. Verify installation using sass --version
+
+
+4. Compile a sass file using sass input.scess output.scss
